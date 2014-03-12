@@ -1,4 +1,4 @@
-define("fixtures/Basic", function () { return Ember.TEMPLATES["Basic"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data) {
+define("fixtures/Basic", ['exports'], function (__exports__) { __exports__['default'] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data) {
 this.compilerInfo = [4,'>= 1.0.0'];
 helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
   
